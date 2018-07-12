@@ -1,4 +1,5 @@
 # CellAutomaton
+
 セルオートマトンのシミュレーションシステム
 
 ![シミュレーション例](images/sample1.png)
@@ -21,4 +22,6 @@ test_typeを切り替えることで、交通流経路の分岐の有無を変�
 
 
 # References
-[セルオートマトンによる交通流と渋滞現象の研究](http://www.gem.aoyama.ac.jp/~kyo/sotsuken/2010/obuchi_sotsuron_2010.pdf)
+[超離散 Allen-Cahn 方程式](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1796-20.pdf) 村田 実貴生
+
+[セルオートマトンによる交通流と渋滞現象の研究](http://www.gem.aoyama.ac.jp/~kyo/sotsuken/2010/obuchi_sotsuron_2010.pdf) 小渕 伊織
