@@ -2,12 +2,12 @@ import cell
 import automaton
 import random
 
-test_type = 0
+test_type = 1
 
 if(test_type == 0):
     automaton = automaton.Automaton()
-    automaton.traffic_flow_setup(ring_size=10, car_num = 6)
-    STEP_SIZE = 10
+    automaton.traffic_flow_setup(ring_size=40, car_num = 21)
+    STEP_SIZE = 100
     print(automaton)
     for index in range(STEP_SIZE):
         automaton.step()
@@ -17,7 +17,7 @@ elif (test_type == 1):
     STEP_SIZE = 10
     automaton = automaton.AutomatonAlt()
     automaton.traffic_flow_setup(
-        branch_index=2, connecting_index=4, ring_size=5, alt_size=1, car_num=4)
+        branch_index=2, connecting_index=5, ring_size=10, alt_size=2, car_num=7)
 
     printtype = 'all'
     print(automaton)
