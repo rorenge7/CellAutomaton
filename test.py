@@ -6,7 +6,7 @@ test_type = 0
 
 if(test_type == 0):
     automaton = automaton.Automaton()
-    automaton.setup(ring_size=10, car_num = 9)
+    automaton.traffic_flow_setup(ring_size=10, car_num = 6)
     STEP_SIZE = 10
     print(automaton)
     for index in range(STEP_SIZE):
@@ -16,7 +16,8 @@ if(test_type == 0):
 elif (test_type == 1):
     STEP_SIZE = 10
     automaton = automaton.AutomatonAlt()
-    automaton.setup(branch_index=2,connecting_index=4,ring_size=5,alt_size=1,car_num=4)
+    automaton.traffic_flow_setup(
+        branch_index=2, connecting_index=4, ring_size=5, alt_size=1, car_num=4)
 
     printtype = 'all'
     print(automaton)

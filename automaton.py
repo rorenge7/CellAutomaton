@@ -11,7 +11,7 @@ class Automaton(list):
         for cell in self:
             cell.update()
 
-    def setup(self, ring_size,car_num):
+    def traffic_flow_setup(self, ring_size, car_num):
         val_list = []
 
         for index in range(ring_size ):
@@ -55,7 +55,7 @@ class AutomatonAlt(Automaton):
         for cell in self.alt:
             cell.update()
 
-    def setup(self,branch_index, connecting_index,ring_size, alt_size,car_num):
+    def traffic_flow_setup(self, branch_index, connecting_index, ring_size, alt_size, car_num):
         self.alt = []
         self.start = branch_index
         self.end = connecting_index
