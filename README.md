@@ -1,11 +1,7 @@
 # CellAutomaton
-
 セルオートマトンのシミュレーションシステム
 
 ![シミュレーション例](images/sample1.png)
-
-
-
 
 # Usage
 test.pyを実行すると、交通流のシミュレーションを行える。
