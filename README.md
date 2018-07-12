@@ -5,8 +5,7 @@
 ![シミュレーション例](images/sample1.png)
 
 
-# Dependency
-Python3.5.4
+
 
 # Usage
 test.pyを実行すると、交通流のシミュレーションを行える。
