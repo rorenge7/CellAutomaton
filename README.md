@@ -1,6 +1,6 @@
 # CellAutomaton
-
 セルオートマトンのシミュレーションシステム
+
 ![シミュレーション例](images/sample1.png)
 
 
